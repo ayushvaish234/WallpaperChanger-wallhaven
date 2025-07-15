@@ -13,3 +13,5 @@
 build/* linguist-vendored
 dist/* linguist-vendored
 .idea/* linguist-vendored
+*.html linguist-language=Text
+*.html linguist-documentation
