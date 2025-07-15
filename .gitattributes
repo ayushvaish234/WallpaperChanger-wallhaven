@@ -1,0 +1,15 @@
+# Tell GitHub Linguist to count Python files and ignore TeX and logs
+*.py linguist-detectable=true
+
+# Mark these as plain text or ignore
+*.log linguist-language=Text
+*.aux linguist-language=Text
+*.out linguist-language=Text
+*.toc linguist-language=Text
+*.tex linguist-language=Text
+*.sty linguist-language=Text
+
+# Ignore build folders from stats
+build/* linguist-vendored
+dist/* linguist-vendored
+.idea/* linguist-vendored
